@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 
-
+#Open cofiguration file
 with open('init.cong','r') as cnfg:
     s=cnfg.readline()
     s=s.split('|')
