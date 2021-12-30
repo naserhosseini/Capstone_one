@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Chapter03/.idea/Chapter03.iml" filepath="$PROJECT_DIR$/../../Chapter03/.idea/Chapter03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Code.iml" filepath="$PROJECT_DIR$/.idea/Code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../../DFIT/.idea/DFIT.iml" filepath="$PROJECT_DIR$/../../../../../DFIT/.idea/DFIT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../../DFIT_Project/.idea/DFIT_Project.iml" filepath="$PROJECT_DIR$/../../../../../DFIT_Project/.idea/DFIT_Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../../Machine Learning/.idea/Machine Learning.iml" filepath="$PROJECT_DIR$/../../../../../Machine Learning/.idea/Machine Learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../Python/.idea/Python.iml" filepath="$PROJECT_DIR$/../../../../Python/.idea/Python.iml" />
+    </modules>
+  </component>
+</project>

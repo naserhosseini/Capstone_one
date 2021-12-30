@@ -1,0 +1,1 @@
+'{}, {}'.format(_id', 'new_date)
