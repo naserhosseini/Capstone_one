@@ -1,4 +1,5 @@
 import csv
+from os.path import exists
 import random
 import pandas as pd
 import numpy as np
@@ -26,17 +27,23 @@ while StartDate < datetime.now():
     month='{:02d}'.format(StartDate.month)
     name='_'+year.__str__()+'_'+month
     ConsumeCSV='../Consume{}.csv'.format(name)
+    Consume_Flag=exists(ConsumeCSV)
     SellsCSV = '../Sells{}.csv'.format(name)
+    SellsFlag=exists(SellsCSV)
     PurchaseCSV = '../Purchase{}.csv'.format(name)
+    PurchasFlag=exists(PurchaseCSV)
     with open(PurchaseCSV, 'a', newline='') as Purchase:
         purchase = csv.writer(Purchase)
-        purchase.writerow(['Date', 'MIX', 'Milk', 'Egg', 'Oil', 'Fondant', 'Sugar', 'Butter', 'Flavour', 'Flour'])
+        if not PurchasFlag:
+            purchase.writerow(['Date', 'MIX', 'Milk', 'Egg', 'Oil', 'Fondant', 'Sugar', 'Butter', 'Flavour', 'Flour'])
         with open(ConsumeCSV, 'a', newline='') as Consume:
             consume = csv.writer(Consume)
-            consume.writerow(['Date','MIX','Milk','Egg','Oil','Fondant','Sugar','Butter','Flavour','Flour'])
+            if not Consume_Flag:
+                consume.writerow(['Date','MIX','Milk','Egg','Oil','Fondant','Sugar','Butter','Flavour','Flour'])
             with open(SellsCSV, 'a', newline='') as Sells:
                 sells = csv.writer(Sells)
-                sells.writerow(['Date','Product','Type','Quantities','Customer_FK'])
+                if not SellsFlag:
+                    sells.writerow(['Date','Product','Type','Quantities','Customer_FK'])
                 while month=='{:02d}'.format(StartDate.month) and StartDate < datetime.now():
                     Purchasedate=StartDate-timedelta(weeks=1)
                     product = random.randint(0, 2)
