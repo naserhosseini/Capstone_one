@@ -5,12 +5,12 @@
       <change afterPath="$PROJECT_DIR$/../../Chapter08/.idea/CHpater08.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Chapter08/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Chapter08/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Chapter08/DataCollection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Code.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Chapter03/MiniOOP.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter03/MiniOOP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter08/DataCollection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter08/DataCollection.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,8 +246,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/../../Chapter08/DataCollection.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="74" />
+          <line>129</line>
+          <option name="timeStamp" value="84" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
