@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73389ca2-07d3-48da-97cf-da9443b180e9" name="Changes" comment="" />
+    <list default="true" id="73389ca2-07d3-48da-97cf-da9443b180e9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Chapter08/.idea/CHpater08.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter08/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter08/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter08/DataCollection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter03/MiniOOP.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter03/MiniOOP.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../Chapter08" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -29,7 +39,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="22CjWp664JbqByKbXGzUEaBw3z0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,7 +57,7 @@
       <recent name="D:\DE\Python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.CreateRandRecords">
+  <component name="RunManager" selected="Python.DataCollection">
     <configuration name="CreateRandRecords" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,19 +79,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Dijkstra" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
+    <configuration name="DataCollection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CHpater08" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../Python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../Chapter08" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../Python/Dijkstra.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../Chapter08/DataCollection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DataCollection" />
         <item itemvalue="Python.CreateRandRecords" />
         <item itemvalue="Python.MiniOOP" />
         <item itemvalue="Python.Test" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.Dijkstra" />
       </list>
     </recent_temporary>
   </component>
@@ -232,6 +244,11 @@
           <line>9</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../Chapter08/DataCollection.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -242,6 +259,8 @@
         <watch expression="obj_DOB.date()" />
         <watch expression="self.DOB" />
         <watch expression="row(0)" />
+        <watch expression="product[row[1]]" />
+        <watch expression="type_name[row[2]]" />
       </configuration>
     </watches-manager>
   </component>

@@ -1,0 +1,66 @@
+pid,p,tid,t
+1,Cookies,1,Small
+1,Cookies,2,Large
+2,Cupcakes,3,chocolate
+2,Cupcakes,4,vanilla
+2,Cupcakes,5,strawberry
+2,Cupcakes,6,coconut
+2,Cupcakes,7,lemon
+2,Cupcakes,8,carrot
+2,Cupcakes,9,red velvet
+2,Cupcakes,10,pineapple
+2,Cupcakes,11,rainbow
+3,Cakes,12,chocolate 8X6
+3,Cakes,13,chocolate 10X8
+3,Cakes,14,chocolate 6X4
+3,Cakes,15,chocolate 6
+3,Cakes,16,chocolate 8
+3,Cakes,17,chocolate 10
+3,Cakes,18,vanilla 8X6
+3,Cakes,19,vanilla 10X8
+3,Cakes,20,vanilla 6X4
+3,Cakes,21,vanilla 6
+3,Cakes,22,vanilla 8
+3,Cakes,23,vanilla 10
+3,Cakes,24,strawberry 8X6
+3,Cakes,25,strawberry 10X8
+3,Cakes,26,strawberry 6X4
+3,Cakes,27,strawberry 6
+3,Cakes,28,strawberry 8
+3,Cakes,29,strawberry 10
+3,Cakes,30,coconut 8X6
+3,Cakes,31,coconut 10X8
+3,Cakes,32,coconut 6X4
+3,Cakes,33,coconut 6
+3,Cakes,34,coconut 8
+3,Cakes,35,coconut 10
+3,Cakes,36,lemon 8X6
+3,Cakes,37,lemon 10X8
+3,Cakes,38,lemon 6X4
+3,Cakes,39,lemon 6
+3,Cakes,40,lemon 8
+3,Cakes,41,lemon 10
+3,Cakes,42,carrot 8X6
+3,Cakes,43,carrot 10X8
+3,Cakes,44,carrot 6X4
+3,Cakes,45,carrot 6
+3,Cakes,46,carrot 8
+3,Cakes,47,carrot 10
+3,Cakes,48,red velvet 8X6
+3,Cakes,49,red velvet 10X8
+3,Cakes,50,red velvet 6X4
+3,Cakes,51,red velvet 6
+3,Cakes,52,red velvet 8
+3,Cakes,53,red velvet 10
+3,Cakes,54,pineapple 8X6
+3,Cakes,55,pineapple 10X8
+3,Cakes,56,pineapple 6X4
+3,Cakes,57,pineapple 6
+3,Cakes,58,pineapple 8
+3,Cakes,59,pineapple 10
+3,Cakes,60,rainbow 8X6
+3,Cakes,61,rainbow 10X8
+3,Cakes,62,rainbow 6X4
+3,Cakes,63,rainbow 6
+3,Cakes,64,rainbow 8
+3,Cakes,65,rainbow 10
